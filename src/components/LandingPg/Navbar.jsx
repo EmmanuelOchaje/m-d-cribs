@@ -54,6 +54,18 @@ const Navbar = () => {
           <li className="m-auto w-fit mt-6 text-[16px]">
             <NavLink to={navigation[4].href}>About Us</NavLink>
           </li>
+          <li className="m-auto w-fit mt-6 text-[16px]">
+            <NavLink to="/welcome">
+              <button className="m-1 mr-2 lg:mr-6 bg-black text-white p-1 rounded-xl w-20">
+                Login
+              </button>
+            </NavLink>
+          </li>
+          <li className="m-auto w-fit mt-6 text-[16px]">
+            <button className="m-1 mr-2 lg:mr-6 bg-black text-white p-1 rounded-xl w-20">
+              Sign Up
+            </button>
+          </li>
         </ul>
       </div>
 
