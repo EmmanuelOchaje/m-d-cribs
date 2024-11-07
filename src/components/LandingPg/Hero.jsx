@@ -29,15 +29,15 @@ const Hero = () => {
   return (
     <div>
       <div className="p-6">
-        <p className="float-right md:text-xl text-[14px]">
+        <p className="float-right w-[150px] md:w-fit text-right md:text-xl text-[14px]">
           &copy; {new Date().getFullYear()}{" "}
           <span className="font-bold">D-cribs</span>. All rights reserved.
         </p>
-        <h1 className="text-2xl lg:text-4xl font-medium text-black w-[250px] lg:w-[400px]">
+        <h1 className="text-2xl lg:text-4xl font-medium text-black w-[230px] lg:w-[400px]">
           Guiding Your Path into your new Home in the United Kingdom
         </h1>
 
-        <p className="float-right text-[15px] md:text-xl mb-10 text-gray-500 text-right w-[300px] lg:w-[600px]">
+        <p className="float-right text-[15px] md:text-xl my-10 text-gray-500 text-right w-[300px] lg:w-[600px]">
           With expert guidance and a deep understanding of London's Real estate
           landscape, we make your journey to a new home seamless and
           stress-free.
