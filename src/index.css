@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Afacad Flux", sans-serif;
+  margin: 0;
+}
+.bg-wl {
+  background-image: url("./assets/images/welcome-bg.jpg");
+  /* background-position: center; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgb(196, 196, 196);
+}
+.bg-ld {
+  background-image: url("./assets/images/loader-bg.jpg");
+  /* background-position: center; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgb(196, 196, 196);
+}
+.bgim {
+  background-image: url("./assets/images/loader-bg.jpg");
+  background-position: center;
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-blend-mode: darken; */
+  height: 100%;
+  background-color: rgb(196, 196, 196);
+}
+.lg {
+  &:focus {
+    outline: 1px solid rgb(184, 184, 184);
+    /* border: 1px solid; */
+  }
+}
