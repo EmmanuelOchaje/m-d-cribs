@@ -29,7 +29,7 @@ const Hero = () => {
   return (
     <div>
       <div className="p-6">
-        <p className="float-right text-xl text-[14px]">
+        <p className="float-right md:text-xl text-[14px]">
           &copy; {new Date().getFullYear()}{" "}
           <span className="font-bold">D-cribs</span>. All rights reserved.
         </p>
