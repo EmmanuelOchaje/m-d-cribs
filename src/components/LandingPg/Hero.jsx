@@ -1,23 +1,5 @@
 import Image from "../../assets/images/ldpg.jpg";
 
-const url =
-  "https://us-real-estate.p.rapidapi.com/keywords-search-suggest?keyword_text=pool&limit=10";
-const options = {
-  method: "GET",
-  headers: {
-    "x-rapidapi-key": "ca7e9ecb83msha7e21fe174286c0p1d2808jsn619e91a30887",
-    "x-rapidapi-host": "us-real-estate.p.rapidapi.com",
-  },
-};
-
-try {
-  const response = await fetch(url, options);
-  const result = await response.text();
-  console.log(result);
-} catch (error) {
-  console.error(error);
-}
-
 const Hero = () => {
   /* async function fetchHouses() {
     const req = await fetch("https://api.simplyrets.com/properties?limit=20");

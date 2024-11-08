@@ -32,7 +32,7 @@ const SignInForm = () => {
   }
 
   return (
-    <div className="md:w-[50%] w-[100%] rounded-tl-xl h-full rounded-bl-xl border rounded-xl md:rounded-tr-none md:rounded-br-none">
+    <div className="my-8 md:w-[50%] w-[100%] rounded-tl-xl h-[90vh] rounded-bl-xl border rounded-xl md:rounded-tr-none md:rounded-br-none">
       <h2 className="ml-5 mt-2 text-2xl font-bold">D-cribs</h2>
       <div className="justify-center flex align-center">
         <div className=" w-fit p-4">

@@ -4,7 +4,7 @@ import SigninImage from "../components/Login/SigninImage";
 
 const Login = (props) => {
   return (
-    <div className="px-8 flex h-screen py-5">
+    <div className="px-8 flex h-screen">
       <SignInForm />
       <SigninImage />
     </div>
