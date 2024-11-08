@@ -39,29 +39,29 @@ const Navbar = () => {
           <i class="bx bx-x"></i>
         </span>
         <ul className="mt-20">
-          <li className="m-auto w-fit mt-6 text-[16px]">
+          <li onClick={hideMenu} className="m-auto w-fit mt-6 text-[16px]">
             <NavLink to={navigation[0].href}>Home</NavLink>
           </li>
-          <li className="m-auto w-fit mt-6 text-[16px]">
+          <li onClick={hideMenu} className="m-auto w-fit mt-6 text-[16px]">
             <NavLink to={navigation[1].href}>Properties</NavLink>
           </li>
-          <li className="m-auto w-fit mt-6 text-[16px]">
+          <li onClick={hideMenu} className="m-auto w-fit mt-6 text-[16px]">
             <NavLink to={navigation[2].href}>Our Projects</NavLink>
           </li>
-          <li className="m-auto w-fit mt-6 text-[16px]">
+          <li onClick={hideMenu} className="m-auto w-fit mt-6 text-[16px]">
             <NavLink to={navigation[3].href}>FAQs</NavLink>
           </li>
-          <li className="m-auto w-fit mt-6 text-[16px]">
+          <li onClick={hideMenu} className="m-auto w-fit mt-6 text-[16px]">
             <NavLink to={navigation[4].href}>About Us</NavLink>
           </li>
-          <li className="m-auto w-fit mt-6 text-[16px]">
+          <li onClick={hideMenu} className="m-auto w-fit mt-6 text-[16px]">
             <NavLink to="/welcome">
               <button className="m-1 mr-2 lg:mr-6 bg-black text-white p-1 rounded-xl w-20">
                 Login
               </button>
             </NavLink>
           </li>
-          <li className="m-auto w-fit mt-6 text-[16px]">
+          <li onClick={hideMenu} className="m-auto w-fit mt-6 text-[16px]">
             <button className="m-1 mr-2 lg:mr-6 bg-black text-white p-1 rounded-xl w-20">
               Sign Up
             </button>
