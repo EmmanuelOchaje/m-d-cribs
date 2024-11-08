@@ -1,0 +1,24 @@
+:root {
+  --background-color: white;
+  --color: black;
+  --button-bg: black;
+  --button-text: white;
+}
+[data-theme="dark"] {
+  --background-color: black;
+  --color: white;
+  --button-bg: white;
+  --button-text: black;
+}
+.cont {
+  background-color: var(--background-color);
+}
+.cont h1 {
+  color: var(--color);
+  text-align: center;
+  font-size: 3rem;
+}
+.cont button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}
