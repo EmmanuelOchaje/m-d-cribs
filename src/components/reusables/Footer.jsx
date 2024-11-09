@@ -7,19 +7,31 @@ const Footer = () => {
       <h2 className="font-bold text-2xl mt-1 text-center">D-cribs</h2>
       <div className="flex justify-center my-4">
         <ul className="m-auto">
-          <NavLink className="text-xl font-normal m-2" to="#">
+          <NavLink className="text-[16px] md:text-xl font-normal m-2" to="#">
             Home
           </NavLink>
-          <NavLink className="text-xl font-normal m-2" to="/properties">
+          <NavLink
+            className="text-[16px] md:text-xl font-normal m-2"
+            to="/properties"
+          >
             Properties
           </NavLink>
-          <NavLink className="text-xl font-normal m-2" to="/ourprojects">
+          <NavLink
+            className="text-[16px] md:text-xl font-normal m-2"
+            to="/ourprojects"
+          >
             Our Projects
           </NavLink>
-          <NavLink className="text-xl font-normal m-2" to="/faqs">
+          <NavLink
+            className="text-[16px] md:text-xl font-normal m-2"
+            to="/faqs"
+          >
             FAQs
           </NavLink>
-          <NavLink className="text-xl font-normal m-2" to="/aboutus">
+          <NavLink
+            className="text-[16px] md:text-xl font-normal m-2"
+            to="/aboutus"
+          >
             AboutUs
           </NavLink>
         </ul>
