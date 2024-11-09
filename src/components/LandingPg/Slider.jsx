@@ -25,12 +25,12 @@ const Slider = (props) => {
     >
       <SwiperSlide>
         <div className="h-[400px] flex flex-col">
-          <h2 className="text-center text-2xl pt-20">
-            <span className="text-2xl">
+          <h2 className="text-center text-2xl pt-10 md:pt-20">
+            <span className="text-[18px]">
               <i class="bx bxs-quote-alt-left"></i>
             </span>{" "}
             All lies bro.{" "}
-            <span className="text-2xl">
+            <span className="text-[18px]">
               <i class="bx bxs-quote-alt-right"></i>
             </span>
           </h2>
@@ -46,12 +46,12 @@ const Slider = (props) => {
 
       <SwiperSlide>
         <div className="h-[400px] flex flex-col">
-          <h2 className="text-center text-2xl pt-20">
-            <span className="text-2xl">
+          <h2 className="text-center text-2xl pt-10 md:pt-20">
+            <span className="text-[18px]">
               <i class="bx bxs-quote-alt-left"></i>
             </span>{" "}
             All lies bro.{" "}
-            <span className="text-2xl">
+            <span className="text-[18px]">
               <i class="bx bxs-quote-alt-right"></i>
             </span>
           </h2>
@@ -66,12 +66,12 @@ const Slider = (props) => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="h-[400px] flex flex-col">
-          <h2 className="text-center text-2xl pt-20">
-            <span className="text-2xl">
+          <h2 className="text-center text-2xl pt-10 md:pt-20">
+            <span className="text-[18px]">
               <i class="bx bxs-quote-alt-left"></i>
             </span>{" "}
             All lies bro.{" "}
-            <span className="text-2xl">
+            <span className="text-[18px]">
               <i class="bx bxs-quote-alt-right"></i>
             </span>
           </h2>

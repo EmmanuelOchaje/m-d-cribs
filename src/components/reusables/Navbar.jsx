@@ -125,6 +125,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
+        {/* buttons */}
         <div className="md:block hidden">
           <NavLink to="/welcome">
             <button className="m-1 mr-2 lg:mr-6 bg-black text-white p-1 rounded-xl w-16 lg:w-20">

@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Nav from "../components/reusables/Nav";
 import { Link } from "react-router-dom";
 
 const Welcome = (props) => {
   return (
     <div className="bg-wl h-screen">
-      <Navbar />
+      <Nav />
       <div className="flex justify-center items-center h-[80vh]">
         <div className="">
           <h2 className="text-white font-medium text-[35px] text-center">

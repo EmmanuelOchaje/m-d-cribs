@@ -48,6 +48,12 @@
   background-blend-mode: darken;
   background-color: rgb(129, 129, 129);
 }
+.bxl-twitter,
+.bxl-instagram,
+.bxl-facebook-circle {
+  margin: 1rem;
+  font-size: 2rem;
+}
 
 /* .swiper-button-next,
 .swiper-button-prev {

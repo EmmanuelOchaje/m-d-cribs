@@ -5,6 +5,10 @@ import Loader from "./components/Loader";
 import Login from "./pages/Login";
 import LandingPg from "./pages/LandingPg";
 import PropertiesPg from "./pages/PropertiesPg";
+import AboutUsPg from "./pages/AboutUsPg";
+import FaqsPg from "./pages/FaqsPg";
+import OurProjectsPg from "./pages/OurProjectsPg";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -23,7 +27,7 @@ function App() {
     return () => clearTimeout(timer); // Cleanup timeout
   }, [location]);
   return (
-    <div className="App">
+    <div className="duration-300">
       {loading ? (
         <Loader /> // Show loading component
       ) : (
@@ -32,6 +36,10 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<LandingPg />} />
           <Route path="/properties" element={<PropertiesPg />} />
+          <Route path="/aboutus" element={<AboutUsPg />} />
+          <Route path="/faqs" element={<FaqsPg />} />
+          <Route path="/ourprojects" element={<OurProjectsPg />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       )}
     </div>
